@@ -21,4 +21,4 @@ We trained five baseline models for the image classification task, including VGG
 
 The model we chose produced an accuracy of 86.9% on the test set and an AUC of 0.933, which met our performance benchmarks.
 
-![result](images/result.png=250x250)
+![result|20%](images/result.png)
