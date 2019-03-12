@@ -1,5 +1,5 @@
 ## Cancer Diagnosis using Convolutional Neural Networks (CNNs)
-
+Team Members: Nikhil Mallareddy, Florian Hillen
 ### Objective
 
 The objective of this exercise is to build a convolutional neural network than can accurately diagnose breast cancer from mammograms.
@@ -13,12 +13,14 @@ non-pathological findings labelled on a scale of 1-5 according to the BI-RADS s
 
 ### Model
 
-We trained five baseline models for the image classification task, including VGG16, ResNet50, and MobileNet using EC2 instance on Amazon AWS. Based on performance on the validation set, we choose VGG16, pre-trained on ImageNet, as the best performing model.
+We trained five baseline models for the image classification task, including VGG16, ResNet50, and MobileNet, using EC2 instance on Amazon AWS. Based on performance on the validation set, we choose VGG16, pre-trained on ImageNet, as the best performing model.
 
 ![model](images/vgg.png)
 
 ### Results
 
-The model we chose produced an accuracy of 86.9% on the test set and an AUC of 0.933, which met our performance benchmarks.
+The model produced an accuracy of 86.9% on the test set and an AUC of 0.933, which met our performance benchmarks. <br/>
+
+More details in the report.
 
 ![result|20%](images/result.png)
