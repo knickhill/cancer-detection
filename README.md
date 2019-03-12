@@ -23,4 +23,4 @@ The model produced an accuracy of 86.9% on the test set and an AUC of 0.933, whi
 
 More details in the report.
 
-![result|20%](images/result.png)
+![result](images/result.png)
